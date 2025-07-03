@@ -60,6 +60,6 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 
 If you have any questions or would like to get in touch, feel free to contact:
 
-- **Email:** aksedit.pro@gmail.com
+- **Email:** kashifidrees27@gmail.com
 
 Thank you for visiting my portfolio website!
