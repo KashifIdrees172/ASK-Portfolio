@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>AKS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Intro Animation -->
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="intro-logo">A</span>
+            <span class="intro-logo">K</span>
+            <span class="intro-logo">S</span>
+        </h1>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav" class="bgcolor">
+        <div class="logo">
+            <img src="Monogram-AKS.jpg" alt="AKS" onclick="location.href='./#profile'">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo">AKS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links" onclick="togglemenu()">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">  
+        <div class="section__pic-container">
+            <img class="home-pic" src="group.jpg" alt="Group image">
+        </div>
+        <div class="section__text show">
+            <p class="section__text__p1">Hello there, We are</p>
+            <h1 class="title">AKS</h1>
+            <h5 class="section__text__p2">Abdullah Kashif Subhan</h5>
+            <p class="section__text__p2">Graphic Designer & Video Editor</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('team-resume.pdf')">
+                    Our Resumes
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Get in touch
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text">Get To Know</p>
+        <h1 class="title2">About Us</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/Assets/group.jpg" alt="Our group's Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="experience icon" class="icon">
+                        <h3 class="about-headings">Experience</h3>
+                        <p><b>Projects in Resume</b><br>Designing web pages, <br>Apps</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/graduation.png" alt="education icon" class="icon">
+                        <h3 class="about-headings">Education</h3>
+                        <p><b>UCP Lahore</b><br>BS Software Engineering<br>'23-27</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        We are Aspiring software engineers currently pursuing a Bachelor of Science in Software Engineering (4th semester).
+                        Experienced in Object-Oriented Programming (OOP) and Data Structures & Algorithms (DSA) using Java.
+                        Skilled in front-end web development technologies including HTML, CSS, and JavaScript. Developed
+                        projects such as an Intelligent Car Parking System and a personal Portfolio Website, demonstrating practical
+                        application of programming and design skills. Eager to contribute to innovative software solutions and
+                        continue learning in a collaborative environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <p class="section__text">Have a look at our</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="sk-details-container">
+                <h2 class="skills-subtitle">Graphic Design</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>Adobe Photoshop</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>Adobe Illustrator</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>Canva</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+                <h2 class="skills-subtitle">Video Editing</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>Adobe Premiere Pro</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>Adobe After Effects</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="skills checkmark" class="icon">
+                        <div>
+                            <h3>CapCut</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>           
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <p class="section__text">Explore our</p>
+        <h1 class="title">Work</h1>
+        <div class="work-list">
+            <a href="./Assets/talking_head.gif">
+                <div class="work">
+                    <img src="./Assets/talking_head.gif" alt="Talking Head 1">
+                    <div class="layer">
+                        <h3>Talking Head 1</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./Assets/talking_head_2.gif">
+                <div class="work">
+                    <img src="./Assets/talking_head_2.gif" alt="talking head 2">
+                    <div class="layer">
+                        <h3>Talking Head 2</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./Assets/The_Business.gif">
+                <div class="work">
+                    <img src="./Assets/The_Business.gif" alt="The-Business">
+                    <div class="layer">
+                        <h3>The-Business</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="projects.html">
+            <button class="btn btn-color-2">
+                See more
+            </button>
+        </a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
+        <h1 class="title" style="font-weight: 600;">Contact us</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:aks.info@gmail.com">
+                    <img src="./Assets/email.png" alt="Email icon" class="icon contact-icon">
+                    <p>aks.info@gmail.com</p>
+                </a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="Monogram-AKS.jpg" alt="AKS" onclick="location.href='./#profile'">
+        </div> 
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <div class="nav-links-container2">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <p>Copyright &#169; AKS Group 2024. All Rights Reserved.</p>
+    </footer>
+
+    <script defer src="script.js"></script> 
+</body>
+</html>
